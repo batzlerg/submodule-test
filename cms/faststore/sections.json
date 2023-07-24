@@ -1,0 +1,56 @@
+[
+  {
+    "name": "MyAmazingComponent",
+    "schema": {
+      "title": "MyAmazingComponent",
+      "description": "An Amazing component!",
+      "type": "object",
+      "required": [
+        "message"
+      ],
+      "properties": {
+        "title": {
+          "title": "message",
+          "description": "message goes here",
+          "type": "string"
+        }
+      }
+    }
+  },
+  {
+    "name": "TestComponent",
+    "schema": {
+      "title": "NEW TEST TITLE",
+      "description": "other description",
+      "type": "object",
+      "required": [
+        "title"
+      ],
+      "properties": {
+        "title": {
+          "title": "title",
+          "description": "title goes here",
+          "type": "string"
+        }
+      }
+    }
+  },
+  {
+    "name": "RandomComponent",
+    "schema": {
+      "title": "TEST",
+      "description": "other description",
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "title": {
+          "title": "name",
+          "description": "name goes here",
+          "type": "string"
+        }
+      }
+    }
+  }
+]
